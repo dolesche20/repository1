@@ -1,0 +1,53 @@
+#Aufgabe 1:
+print("Hallo Benutzer")
+zahl1_string = input("Eingabe der ersten Zahl:")
+zahl2_string = input ("Eingabe der zweiten Zahl:")
+zahl1 = float(zahl1_string)
+zahl2 = float(zahl2_string)
+
+if zahl1 < zahl2:
+    a = zahl1
+    b = zahl2
+elif zahl2 < zahl1:
+    a = zahl2
+    b = zahl1
+
+print("Summe:", zahl1 + zahl2)
+print("Differenz:", a - b)
+print("Produkt:", zahl1 * zahl2)
+print("Quotient:", a / b)
+
+
+
+
+#Übung 2:
+# einfaches "=" Zeichen: Zuweisung
+strWetter = input("Wochenendwetter - sonnig oder regnerisch")
+
+# doppeltes "=" Zeichen: Vergleichsoperator
+if strWetter == "sonnig":
+    print("Gartenparty!")
+    
+elif strWetter == "regnerisch":s
+    print("Kellerparty")
+
+else:
+    Print("bitte entweder sonnig oder regnerisch eingeben!")
+    
+    
+    
+    
+    
+#Leibnitz Reihe
+
+Ia = int(input("Geben sie die Anzahl der Iterationen ein!"))
+zahl1 = 0
+pi = 0
+
+while zahl1 < Ia:
+         pi += (-1)**zahl1/(2*zahl1+1)
+         print("Zwischenwert =", pi)
+         zahl1 += 1
+         
+pi *= 4
+print("Ergebnis =" , pi)
